@@ -24,11 +24,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     
-  /*  @GetMapping ("/portfolio")
+    @GetMapping ("/portfolio")
     public String testPortfolio(){
-        return "testPortfolio";
+        return "Portfolio AP-4";
     }
-    
+  /*  
     @GetMapping("/portfolioparam")
     public String testPortfolioParam(@RequestParam String nombre,
                             @RequestParam String apellido,
