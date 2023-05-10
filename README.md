@@ -15,5 +15,4 @@
 - Diseño limpio y profesional.
 - Se usó el modelo multicapa MVC.
 - Hosteado en Render y la db en Clever cloud
-
-
+- Frontend esta escrito en angular y hosteado en Firebase
