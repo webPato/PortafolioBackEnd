@@ -6,6 +6,7 @@ package com.pherrera.portfolio.service;
 
 import com.pherrera.portfolio.model.ConocimientosAptitudes;
 import java.util.List;
+import java.util.Optional;
 
 /**
  *
@@ -16,6 +17,8 @@ public interface InterfaceConocimientosAptitudesService {
     public void crearConocimientosAptitudes (ConocimientosAptitudes capt);
     public void borrarConocimientosAptitudes (Long id);
     public ConocimientosAptitudes buscarConocimientosAptitudes (Long id);
-    public void editarConocimientosAptitudes (ConocimientosAptitudes con);
+    public void editarConocimientosAptitudes (ConocimientosAptitudes con);  
+    public Optional<ConocimientosAptitudes> findById(Long id);
+    
     
 }

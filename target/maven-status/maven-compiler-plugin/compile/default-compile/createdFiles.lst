@@ -25,6 +25,7 @@ com\pherrera\portfolio\model\AcercaDe.class
 com\pherrera\portfolio\service\InterfaceProyectosService.class
 com\pherrera\portfolio\controller\ConocimientosAptitudesController.class
 com\pherrera\portfolio\repository\ProvinciaRepository.class
+com\pherrera\portfolio\WebConfig.class
 com\pherrera\portfolio\repository\EducacionRepository.class
 com\pherrera\portfolio\service\AcercaDeService.class
 com\pherrera\portfolio\PortfolioApplication.class
@@ -33,6 +34,7 @@ com\pherrera\portfolio\model\Cursos.class
 com\pherrera\portfolio\controller\DireccionController.class
 com\pherrera\portfolio\repository\ProfesionRepository.class
 com\pherrera\portfolio\service\InterfaceLocalidadService.class
+com\pherrera\portfolio\NotFoundException.class
 com\pherrera\portfolio\service\ProvinciaService.class
 com\pherrera\portfolio\service\LocalidadService.class
 com\pherrera\portfolio\controller\CursosController.class
