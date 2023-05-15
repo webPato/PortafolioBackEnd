@@ -7,6 +7,7 @@ package com.pherrera.portfolio.service;
 import com.pherrera.portfolio.model.ConocimientosAptitudes;
 import com.pherrera.portfolio.repository.ConocimientosAptitudesRepository;
 import java.util.List;
+import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -42,4 +43,11 @@ public class ConocimientosAptitudesService implements InterfaceConocimientosApti
     public void editarConocimientosAptitudes(ConocimientosAptitudes con) {
         conapRepo.save(con);
     }
+    
+    @Override
+    public Optional<ConocimientosAptitudes> findById(Long id) {
+        return conapRepo.findById(id);
+    }
+  
+    
 }
