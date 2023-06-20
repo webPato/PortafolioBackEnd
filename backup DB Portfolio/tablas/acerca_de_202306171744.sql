@@ -1,0 +1,3 @@
+INSERT INTO b6iutlu3twu0e5wktftd.acerca_de (id,descripcion,id_persona) VALUES 
+(1,'Ingeniero informático con más de diez años de experiencia en IT y más de cuatro años trabajando en desarrollo de software. Actualmente me desempeño como desarrollador en VENG S.A en el proyecto SAOCOM. Durante en mi carrera, me desempeñé en diferentes roles, como desarrollador full-stack, desarrollador back-end y administrador de sistemas. Me considero una persona proactiva y positiva con fuertes habilidades organizativas y de resolución de problemas. Además, tengo la versatilidad para trabajar tanto en equipo como de forma independiente con liderazgo.',1)
+;
